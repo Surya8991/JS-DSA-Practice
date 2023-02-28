@@ -12,3 +12,13 @@ var isSubsequence = function(s, t) {
 };
 console.log(isSubsequence("abc","ahbgdc"))
 console.log(isSubsequence("abcx","ahbgdc"))
+// Another Method
+// var isSubsequence = function(s, t) {
+//     let count=0
+//     for(let i=0;i<t.length;i++){
+//         if(s[count]===t[i]){
+//             count++
+//         }
+//     }
+//     return count === s.length
+// };
